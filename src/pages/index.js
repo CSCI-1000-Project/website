@@ -9,31 +9,40 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='title'>Congratulations! You've set up your webapp!</h1>
+        <h1 className='title'>Welcome to our Wesbite!</h1>
+        <h2>By: Mreedul Gupta, Tavin Turner, and Josh Huang!</h2>
 
-        <p className='description'>
+        {/* <p className='description'>
           Get started by editing <code>src/pages/index.js</code> to be your
           project home page.
         </p>
         <p className='description2'>
           Next, each team member will create their own about me file in the
           pages directory:{' '}
-        </p>
-        <code>src/page/teamMemberName.js</code>
+        </p> */}
+        {/* <code>src/page/teamMemberName.js</code> */}
 
         <div className='grid'>
-          <a href='/ronBurgundy' className='card'>
-            <h3>Example About Me Page &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
+          <a href='/mreedul' className='card'>
+            <h3>Mreedul Gupta &rarr;</h3>
+            <p>Click here to learn more about Mreedul!</p>
           </a>
-          <a
+          <a href='/josh' className='card'>
+            <h3>Josh Huang &rarr;</h3>
+            <p>Click here to learn more about Josh!</p>
+          </a>
+          <a href='/tavin' className='card'>
+            <h3>Tavin Turner &rarr;</h3>
+            <p>Click here to learn more about Tavin!</p>
+          </a>
+          {/* <a
             href='https://github.com/wangalec/website-template'
             className='card'>
             <h3>Project Resources&rarr;</h3>
             <p>
               Return to the Github for resources on creating your own website!
             </p>
-          </a>
+          </a> */}
           <a
             href='https://nextjs.org/learn/foundations/about-nextjs'
             className='card'>
@@ -55,11 +64,11 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
+      {/* <footer>
         <a href='' target='_blank' rel='noopener noreferrer'>
           Copyright CSCI 1000
         </a>
-      </footer>
+      </footer> */}
 
       <style jsx>{`
         .container {
