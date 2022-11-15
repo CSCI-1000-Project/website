@@ -43,7 +43,7 @@ export default function Home() {
               Return to the Github for resources on creating your own website!
             </p>
           </a> */}
-          <a
+          {/* <a
             href='https://nextjs.org/learn/foundations/about-nextjs'
             className='card'>
             <h3>Next.js&rarr;</h3>
@@ -60,7 +60,7 @@ export default function Home() {
           <a href='https://styled-components.com/' className='card'>
             <h3>Styled Components&rarr;</h3>
             <p>Click here to learn more about Styled Components</p>
-          </a>
+          </a> */}
         </div>
       </main>
 

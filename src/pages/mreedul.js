@@ -8,7 +8,23 @@ export default function examplePage() {
           <div className='underline'>
             <h1 className='title'>Hello, I'm Mreedul!</h1>
           </div>
-
+          <img
+            className='pic'
+            src='https://www.outsideonline.com/wp-content/uploads/2020/03/12/gem-lake-and-longs-peak-sunset_h.jpg'
+            alt='rocky mountain'
+          />
+          <div>
+            <p className="description">
+            I am currently a first year student at the University of Colorado Boulder. 
+            I am studying Computer Science and I am most interested in the field of Artificial 
+            Intelligence. A little about myself is that I am from Colorado and I have lived in 
+            Colorado my entire life. I enjoy going to the mountains, hiking, camping, and rafting 
+            with my friends and family. Our favorite getaway is Rocky Mountain National park where 
+            we usually hike Dream and Emerald lake. Outside of the outdoors I am a fan of both the 
+            Broncos, Nuggets, and Avs. I am looking forward to everything that I’ll be able to 
+            learn from Boulder and I am excited to meet new people along the way. 
+            </p>
+          </div>
 
           <a className='button' href='/'>
             <p> Back to Home Page</p>
@@ -53,8 +69,8 @@ export default function examplePage() {
           }
 
           .pic {
-            height: 450px;
-            width: 450px;
+            height: 350px;
+            width: 550px;
           }
 
           .button {
@@ -89,6 +105,7 @@ export default function examplePage() {
             font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
               DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
           }
+        
         `}</style>
 
         <style jsx global>{`
@@ -96,6 +113,7 @@ export default function examplePage() {
           body {
             padding: 0;
             margin: 0;
+            background-color: lightblue;
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
               Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
               sans-serif;
