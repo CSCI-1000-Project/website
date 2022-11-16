@@ -1,122 +1,124 @@
 export default function examplePage() {
-    return (
-      <div className='container'>
-        <title>Website</title>
-        <link rel='icon' href='/favicon.ico' />
+  return (
+    <div className='container'>
+      <title>Website</title>
+      <link rel='icon' href='/favicon.ico' />
 
-        <main>
-          <div className='underline'>
-            <h1 className='title'>Hello, Im Ron Burgundy?</h1>
-          </div>
-          <img
-            className='pic'
-            src='https://pbs.twimg.com/profile_images/415961110635110400/xPO9YqTC.jpeg'
-            alt='ron burgundy'
-          />
+      <main>
+        <div className='underline'>
+          <h1 className='title'>Hello, I'm Tavin!</h1>
+        </div>
+        <img
+          className='pic'
+          src='https://avatars.githubusercontent.com/u/12093672?v=4'
+          alt='tavin'
+        />
 
-          <p className='description'>
-            I dont know if you know this, but... I am kind of a big deal. I have
-            many leather bound books and my apartment smells of rich mahogany. I
-            am also a five-time local Emmy award-winning anchor for the KVWN Channel
-            4 News in San Diego. When im not reading the news, you will find me
-            playing the jazz flute around the city at different establishments.
-          </p>
+        <p className='description'>
+        I'm a student (& free time pull requester) from now-snowy CO 🏔️<br/>
+Right now I'm...<br/><br/>
 
-          <a className='button' href='/'>
-            <p> Back to Home Page</p>
-          </a>
-        </main>
+🦬 Studying CS at University of Colorado Boulder<br/>
+👀 Building super-secret new stuff (stick around)<br/>
+🧋 Using computing for good with Blueprint Boulder<br/>
+📻 Skyrocketing my playlist count
+        </p>
 
-        <style jsx>{`
-          .container {
-            min-height: 100vh;
-            padding: 0 0.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            max-width: 60rem;
-            margin: auto;
-          }
+        <a className='button' href='/'>
+          <p> Back to Home Page</p>
+        </a>
+      </main>
 
-          main {
-            padding: 5rem 0;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          }
+      <style jsx>{`
+        .container {
+          min-height: 100vh;
+          padding: 0 0.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          max-width: 60rem;
+          margin: auto;
+        }
 
-          .title {
-            margin: 0;
-            line-height: 1.15;
-            font-size: 4rem;
-          }
+        main {
+          padding: 5rem 0;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
 
-          .underline {
-            /* border-bottom: solid black; */
-            margin-bottom: 1.5rem;
-          }
+        .title {
+          margin: 0;
+          line-height: 1.15;
+          font-size: 4rem;
+        }
 
-          .description {
-            line-height: 1.5;
-            font-size: 1.5rem;
-          }
+        .underline {
+          /* border-bottom: solid black; */
+          margin-bottom: 1.5rem;
+        }
 
-          .pic {
-            height: 450px;
-            width: 450px;
-          }
+        .description {
+          line-height: 1.5;
+          font-size: 1.5rem;
+        }
 
-          .button {
-            /* margin: .5rem; */
-            flex-basis: 45%;
-            padding: 0.5rem;
-            text-align: left;
-            color: inherit;
-            text-decoration: none;
-            border: 1px solid #eaeaea;
-            border-radius: 10px;
-            transition: color 0.15s ease, border-color 0.15s ease;
-          }
+        .pic {
+          height: 450px;
+          width: 450px;
+        }
 
-          .button:hover,
-          .button:focus,
-          .button:active {
-            color: #0070f3;
-            border-color: #0070f3;
-          }
+        .button {
+          /* margin: .5rem; */
+          flex-basis: 45%;
+          padding: 0.5rem;
+          text-align: left;
+          color: inherit;
+          text-decoration: none;
+          border: 1px solid #eaeaea;
+          border-radius: 10px;
+          transition: color 0.15s ease, border-color 0.15s ease;
+        }
 
-          .button p {
-            font-size: 1rem;
-            font-weight: 600;
-          }
+        .button:hover,
+        .button:focus,
+        .button:active {
+          color: #0070f3;
+          border-color: #0070f3;
+        }
 
-          code {
-            background: #fafafa;
-            border-radius: 5px;
-            padding: 0.75rem;
-            font-size: 1.1rem;
-            font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-              DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-          }
-        `}</style>
+        .button p {
+          font-size: 1rem;
+          font-weight: 600;
+        }
 
-        <style jsx global>{`
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-              sans-serif;
-          }
+        code {
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
+          font-size: 1.1rem;
+          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        }
+      `}</style>
 
-          * {
-            box-sizing: border-box;
-          }
-        `}</style>
-      </div>
-    );
+      <style jsx global>{`
+        html,
+        body {
+          padding: 0;
+          margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+            sans-serif;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+      `}</style>
+    </div>
+  );
 }
